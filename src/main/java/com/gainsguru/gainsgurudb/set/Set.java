@@ -31,4 +31,40 @@ public class Set {
 
   @Column(name = "weight")
   private int weight;
+
+  public Long getId() {
+    return this.id;
+  }
+
+  public int getExerciseID() {
+    return this.exerciseID;
+  }
+
+  public Date getDate() {
+    return this.date;
+  }
+
+  public int getReps() {
+    return this.reps;
+  }
+
+  public int getWeight() {
+    return this.weight;
+  }
+
+  public void setExerciseID(int newExerciseID) {
+    this.exerciseID = newExerciseID;
+  }
+
+  public void setDate(Date newDate) {
+    this.date = newDate;
+  }
+
+  public void setReps(int newReps) {
+    this.reps = newReps;
+  }
+
+  public void setWeight(int newWeight) {
+    this.weight = newWeight;
+  }
 }

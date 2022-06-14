@@ -3,7 +3,7 @@ package com.gainsguru.gainsgurudb.set;
 import java.util.Map;
 import java.util.HashMap;
 
-import main.java.com.gainsguru.gainsgurudb.set.exception.ResourceNotFoundException;
+import com.gainsguru.gainsgurudb.set.exception.ResourceNotFoundException;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
