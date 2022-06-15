@@ -31,7 +31,7 @@ public class EntryService {
       updatedEntry.setFat(entry.getFat());
       updatedEntry.setProtein(entry.getProtein());
       updatedEntry.setCarbs(entry.getCarbs());
-      updatedEntry.setCarbs(entry.getCalories());
+      updatedEntry.setCalories(entry.getCalories());
       updatedEntry.setDate(entry.getDate());
 
       entryRepository.save(updatedEntry);
